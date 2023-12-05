@@ -27,9 +27,9 @@
 
 namespace Seomonitor\Client;
 
-use Swagger\Client\Configuration;
-use Swagger\Client\ApiException;
-use Swagger\Client\ObjectSerializer;
+use Seomonitor\Client\Configuration;
+use Seomonitor\Client\ApiException;
+use Seomonitor\Client\ObjectSerializer;
 use PHPUnit\Framework\TestCase;
 
 /**
