@@ -1,20 +1,12 @@
 {
-    "name": "git_user_id/git_repo_id",
-    "description": "",
+    "name": "Seomonitor-api-php-sdk",
+    "description": "Seomonitor api php sdk",
     "keywords": [
-        "swagger",
+        "seomonitor",
         "php",
         "sdk",
         "rest",
         "api"
-    ],
-    "homepage": "http://swagger.io",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
-        }
     ],
     "require": {
         "php": "^7.4 || ^8.0",
@@ -29,9 +21,9 @@
         "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
-        "psr-4": { "Swagger\\Client\\" : "lib/" }
+        "psr-4": { "Seomonitor\\Client\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "Swagger\\Client\\" : "test/" }
+        "psr-4": { "Seomonitor\\Client\\" : "test/" }
     }
 }

@@ -25,7 +25,7 @@
  * Please update the test case below to test the endpoint.
  */
 
-namespace Swagger\Client;
+namespace Seomonitor\Client;
 
 use Swagger\Client\Configuration;
 use Swagger\Client\ApiException;

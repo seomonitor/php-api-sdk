@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client;
+namespace Seomonitor\Client;
 
 /**
  * ObjectSerializer Class Doc Comment
