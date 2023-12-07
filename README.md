@@ -19,11 +19,11 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/git_user_id/git_repo_id.git"
+      "url": "https://github.com:seomonitor/php-api-sdk.git"
     }
   ],
   "require": {
-    "git_user_id/git_repo_id": "*@dev"
+    "seomonitor/php-api-sdk": "*@dev"
   }
 }
 ```
@@ -35,7 +35,7 @@ Then run `composer install`
 Download the files and include `autoload.php`:
 
 ```php
-    require_once('/path/to/SwaggerClient-php/vendor/autoload.php');
+    require_once('/path/to/SeomonitorClient-php/vendor/autoload.php');
 ```
 
 ## Tests
@@ -82,7 +82,7 @@ try {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://apix.seomonitor.com*
+All URIs are relative to *https://apigw.seomonitor.com/v3*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
